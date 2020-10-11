@@ -1,0 +1,743 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-11T13:38:05.870Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1292000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1901000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin1\" and \"admin2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2355000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Error: Invalid Credentials. Please try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Error: Invalid Credentials. Please try again.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-11T13:38:11.914Z",
+        "before": [
+          {
+            "result": {
+              "duration": 511000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 45
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Successful login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successful login\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-11T13:38:13.740Z",
+        "before": [
+          {
+            "result": {
+              "duration": 520000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 4000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1417000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin1\" and \"admin2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin1\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin2\"",
+                  "offset": 46
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2162000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Error: Invalid Credentials. Please try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Error: Invalid Credentials. Please try again.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-11T13:38:17.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 460000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1424000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin2\" and \"admin3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin2\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin3\"",
+                  "offset": 46
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2122000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Error: Invalid Credentials. Please try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Error: Invalid Credentials. Please try again.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-11T13:38:21.971Z",
+        "before": [
+          {
+            "result": {
+              "duration": 484000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1283000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin3\" and \"admin4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin3\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin4\"",
+                  "offset": 46
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2131000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Error: Invalid Credentials. Please try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Error: Invalid Credentials. Please try again.\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-11T13:38:25.932Z",
+        "before": [
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "User able to login to app with multiple users",
+        "description": "",
+        "id": "login-page;user-able-to-login-to-app-with-multiple-users;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "test.java.utils.Hooks.before_or_after(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user opens application url",
+            "match": {
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:34)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1029000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters user credentials for \"admin\" and \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"admin\"",
+                  "offset": 45
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:59)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify successful message \"Successful login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Successful login\"",
+                  "offset": 26
+                }
+              ],
+              "location": "test.java.stepDef.LoginStepDef.\u003cinit\u003e(LoginStepDef.java:66)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "test.java.utils.Hooks.\u003cinit\u003e(Hooks.java:21)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
