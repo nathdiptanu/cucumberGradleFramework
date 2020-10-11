@@ -43,3 +43,7 @@
 9)Cucumber email API built to create HTML email body :http://selenium1234.pythonanywhere.com/getcucumbersummary
 
 
+Support :email to seleniumframeworktesting@gmail.com for more details.
+
+Regards,
+Diptanu Nath
